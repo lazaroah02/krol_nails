@@ -248,9 +248,6 @@ export default defineComponent({
         width: 50%;
         border-bottom: 2px dotted #BE6972;
     }
-    #offer-card-new-apps{
-
-    }
     .buttons-container-width{
         width: 100%;
         justify-content: center!important;

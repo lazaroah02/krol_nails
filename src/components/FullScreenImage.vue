@@ -99,7 +99,7 @@ export default defineComponent({
     height: 85vh;
     margin:0 auto;
     position: absolute;
-    top: 80px;
+    top: 90px;
     left: 50%;
     margin-left: -45vw; /* La mitad de la anchura */
     border-radius: 10px;
@@ -124,7 +124,7 @@ export default defineComponent({
     width: 95vw;
     height: 70vh;
     position: absolute;
-    top: 80px;
+    top: 90px;
     left: 50%;
     margin-left: -47.5vw; /* La mitad de la anchura */
     border-radius: 10px;

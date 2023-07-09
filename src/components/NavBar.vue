@@ -115,8 +115,10 @@ export default defineComponent({
 }
 .link-nav-bar:hover {
   text-decoration-line: underline;
+  text-underline-offset: 5px;
 }
 .link-active {
   text-decoration-line: underline;
+  text-underline-offset: 5px;
 }
 </style>

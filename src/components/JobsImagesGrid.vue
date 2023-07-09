@@ -67,7 +67,7 @@ export default defineComponent({
     filter:blur(5px);
 }
 .separator{
-    height: 80px;
+    height: 150px;
     width: 100%;
 }
 
@@ -83,5 +83,9 @@ export default defineComponent({
     .buttons-container-width{
         width: 100%;
     }
+    .separator{
+      height: 80px;
+      width: 100%;
+  }
 }
 </style>

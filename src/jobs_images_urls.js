@@ -17,51 +17,26 @@ export const jobsImages = [
   },
   {
     id: 5,
-    url: '/jobs_images/job3.jpeg'
+    url: '/jobs_images/job5.jpeg'
   },
   {
     id: 6,
-    url: '/jobs_images/job3.jpeg'
+    url: '/jobs_images/job6.jpeg'
   },
   {
     id: 7,
-    url: '/jobs_images/job3.jpeg'
+    url: '/jobs_images/job7.jpeg'
   },
   {
     id: 8,
-    url: '/jobs_images/job3.jpeg'
+    url: '/jobs_images/job8.jpeg'
   },
   {
     id: 9,
-    url: '/jobs_images/job3.jpeg'
+    url: '/jobs_images/job9.jpeg'
   },
   {
     id: 10,
-    url: '/jobs_images/job3.jpeg'
+    url: '/jobs_images/job10.jpeg'
   },
-  {
-    id: 11,
-    url: '/jobs_images/job3.jpeg'
-  },
-  {
-    id: 12,
-    url: '/jobs_images/job3.jpeg'
-  },
-  {
-    id: 13,
-    url: '/jobs_images/job3.jpeg'
-  },
-  {
-    id: 14,
-    url: '/jobs_images/job3.jpeg'
-  },
-  {
-    id: 15,
-    url: '/jobs_images/job3.jpeg'
-  },
-  {
-    id: 16,
-    url: '/jobs_images/job1.jpeg'
-  },
-
 ]
