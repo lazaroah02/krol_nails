@@ -56,7 +56,7 @@ export default defineComponent({
     format("woff2");
 }
 #nav-bar {
-  width: 100%;
+  width: 100vw;
   height: 60px;
   background-color: #dc7782;
   display: flex;
