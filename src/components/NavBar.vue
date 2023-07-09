@@ -1,6 +1,13 @@
 <template>
   <div id="nav-bar">
-    <div id="top-nav-bar">Karol Nails</div>
+    <div id="top-nav-bar">
+      <div id = "logo-container">
+        <img alt = "logo" :src = "KrolNailsLogo"/>
+      </div>
+      <div>
+        Karol Nails
+      </div>
+    </div>
     <div id="bottom-nav-bar">
       <div
         :class="
@@ -39,6 +46,7 @@
 <script>
 import { defineComponent } from "vue";
 import { useRoute, useRouter } from "vue-router";
+import KrolNailsLogo from '../assets/krol-nails-logo-transparent-bg.png'
 
 export default defineComponent({
   setup() {
@@ -46,6 +54,11 @@ export default defineComponent({
     const router = useRouter();
     return { route, router };
   },
+  data(){
+    return{
+      KrolNailsLogo,
+    }
+  }
 });
 </script>
 
@@ -56,8 +69,6 @@ export default defineComponent({
     format("woff2");
 }
 #nav-bar {
-  width: 100vw;
-  height: 60px;
   background-color: #dc7782;
   display: flex;
   flex-direction: column;
@@ -70,11 +81,26 @@ export default defineComponent({
   font-family: "Josefin";
   font-size: 20px;
   color: white;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+#logo-container{
+  width: 70px;
+  height: 70px;
+  position:absolute;
+  left:0;
+}
+#logo-container img{
+  width: 100%;
+  height: 100%;
 }
 #bottom-nav-bar {
   background-color: #e3929b;
   height: 30px;
   display: flex;
+  align-items: center;
   flex-direction: row;
   justify-content: space-between;
 }

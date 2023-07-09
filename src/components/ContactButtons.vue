@@ -37,7 +37,7 @@ export default defineComponent({
 <style scoped>
     #buttons-contact-container{
         position: fixed;
-        top:90vh;
+        top:85vh;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
@@ -56,6 +56,10 @@ export default defineComponent({
         color:#fff;
         cursor:pointer;
         height: 35px;
+        padding:10px
+    }
+    #buttons-contact-container button:hover{
+        opacity: 1;
     }
     #buttons-contact-container a{
         color:#fff;
@@ -66,7 +70,7 @@ export default defineComponent({
         width: 40px;
         height: 30px;
         padding-top:5px;
-        margin-left:-6px;
+        margin-left:-10px;
         border-radius: 50px;
     }
     #wattsap-button{
